@@ -3,7 +3,38 @@ body{
 }
 
 #footer{
-width:100px;
+    border: solid #212121 1px;
+    background-color: #212121;
+    color:white;
+    width:100%;
+    height:40px;
+    position: fixed;
+    bottom:0px;
+}
+
+#footer>a{
+    margin-left: 45%;
+}
+
+#text{
+    position: absolute;
+    top: 280px;
+    left: 350px;
+    margin-right: 350px;
+}
+
+#text1{
+    position: absolute;
+    top: 395px;
+    left: 150px;
+    width: 400px;
+}
+
+#text2{
+    position: absolute;
+    top: 395px;
+    right: 150px;
+    width: 400px;
 }
 
 #header{
@@ -31,15 +62,59 @@ body>nav>ul>li>a{
     margin-right:110px;
 }
 
+#webgrid{
+    width:100%;
+}
+
 #first{
     margin-left:100px;;
 }
 
-#whiteroom{
-	display: grid;
-	border:solid white 0px;
-	background-color:white;
-	grid-template-columns:200px 200px 200px 200px 200px;
-	grid-template-rows:235px 200px 200px 200px 20px;
-	grid-row-gap:2px;
+#guy{
+    width:300px;
+    height:600px;
+ position: absolute;
+ top:280px;
+ margin-bottom: 60px;
+}
+
+#doos{
+    width:300px;
+    height:200px;
+ position: absolute;
+ right:0px;
+ top:280px;
+}
+
+#bord{
+    width:300px;
+    height:200px;
+    position: absolute;
+    right:0px;
+    top:485px;
+}
+
+#money{
+    width:300px;
+    height:200px;
+    position: absolute;
+    right:0px;
+    top:690px;
+}
+
+#snakesDoos{
+    width:960px;
+    height:100px;
+    position: absolute;
+    right:150px;
+    top:280px;
+}
+
+#snakes{
+    width:960px;
+    height:100px;
+    position: absolute;
+    left:150px;
+    top:640px;
+    margin-bottom: 60px;
 }
