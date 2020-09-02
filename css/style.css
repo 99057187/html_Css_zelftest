@@ -24,6 +24,8 @@ body{
 }
 
 #text1{
+    border: solid #9E9E9E 1px;
+    background-color: #9E9E9E;
     position: absolute;
     top: 395px;
     left: 150px;
@@ -31,10 +33,24 @@ body{
 }
 
 #text2{
+    border: solid #9E9E9E 1px;
+    background-color: #9E9E9E;
     position: absolute;
     top: 395px;
     right: 150px;
     width: 400px;
+}
+
+#text1>h2{
+    border: solid #212121 1px;
+    background-color: #212121;
+    color: white;
+}
+
+#text2>h2{
+    border: solid #212121 1px;
+    background-color: #212121;
+    color: white;
 }
 
 #text3{
@@ -49,6 +65,7 @@ body{
     top: 495px;
     right: 100px;
     width: 400px;
+    margin-bottom: 60px;
 }
 
 #header{
@@ -72,6 +89,7 @@ body{
 body>nav>ul>li>a{
     border: solid #212121 1px;
     background-color:#212121;
+    color: white;
     padding:20px;
     margin-right:110px;
 }
@@ -129,7 +147,7 @@ body>nav>ul>li>a{
     height:100px;
     position: absolute;
     left:150px;
-    top:640px;
+    top:660px;
     margin-bottom: 60px;
 }
 
@@ -205,4 +223,21 @@ body>nav>ul>li>a{
     position: absolute;
     right:100px;
     top:280px;
+}
+
+nav>ul>li>a:nth-child(1):hover{
+    background-color:#263238;
+    color: white;
+}
+nav>ul>li>a:nth-child(2):hover{
+    background-color:#263238;
+    color: white;
+}
+nav>ul>li>a:nth-child(3):hover{
+    background-color:#263238;
+    color: white;
+}
+nav>ul>li>a:nth-child(4):hover{
+    background-color:#263238;
+    color: white;
 }
