@@ -1,0 +1,24 @@
+body{
+	background-color:white;
+}
+
+#footer{
+width:100px;
+}
+
+#navbar{
+border: solid #9E9E9E 1px;
+	background-color:#9E9E9E;
+	padding:10px;
+	font-family: 'Noto Sans', sans-serif;
+	color:#91c73e;
+	font-size:24px;
+}
+#whiteroom{
+	display: grid;
+	border:solid white 0px;
+	background-color:white;
+	grid-template-columns:200px 200px 200px 200px 200px;
+	grid-template-rows:235px 200px 200px 200px 20px;
+	grid-row-gap:2px;
+}
