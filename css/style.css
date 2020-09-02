@@ -1,19 +1,40 @@
 body{
-	background-color:white;
+    background-color:white;
 }
 
 #footer{
 width:100px;
 }
 
-#navbar{
-border: solid #9E9E9E 1px;
-	background-color:#9E9E9E;
-	padding:10px;
-	font-family: 'Noto Sans', sans-serif;
-	color:#91c73e;
-	font-size:24px;
+#header{
+    width:360px;
+    height:150px;
+    position:absolute;
+    top:20px;
+    left:35%;
 }
+
+#navbar{
+    border: solid #212121 1px;
+	background-color:#9E9E9E;
+	font-family: 'Noto Sans', sans-serif;
+    font-size:24px;
+    width:100%;
+    margin-top:180px;
+    padding-top:15px;
+}
+
+body>nav>ul>li>a{
+    border: solid #212121 1px;
+    background-color:#212121;
+    padding:20px;
+    margin-right:110px;
+}
+
+#first{
+    margin-left:100px;;
+}
+
 #whiteroom{
 	display: grid;
 	border:solid white 0px;
